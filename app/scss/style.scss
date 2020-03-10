@@ -1,0 +1,11 @@
+@import "settings";
+@import "smart-grid";
+@import "header/header";
+@import "content/content";
+@import "footer/footer";
+head,body{
+  @include wrapper();
+  max-width: 1400px;
+  height: 2330px;
+
+}

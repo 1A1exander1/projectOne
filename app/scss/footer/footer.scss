@@ -1,0 +1,25 @@
+@import "../smart-grid";
+@import "../settings";
+footer{
+  width: 960px;
+  height: 32px;
+  background-color: #c5c5c5;
+  margin:0 auto;
+}
+.footer{
+  display: flex;
+  justify-content: space-between;
+
+
+  p{
+    font-family: $verdana;
+    font-size: 13px;
+    line-height: 1.2;
+    font-weight: 400;
+    color: #ffffff;
+    margin: 0;
+    padding: 8px 35px;
+  }
+
+
+}
